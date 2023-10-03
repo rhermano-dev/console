@@ -1,0 +1,19 @@
+        [Fact]
+        public void TestId()
+        {
+            // Arrange
+            var program = new PersonDetails();
+            var personDetailsList = new List<PersonDetails>();
+            var personDetails = new PersonDetails()
+            {
+                Name = "Test"
+            };
+
+            string sd = personDetails.SetId(personDetailsList.Count + 1);
+
+            // Act
+            program.AddPersonDetailsToList(personDetailsList, personDetails);
+
+            // Assert
+            Assert.Equal("Dili", sd);
+        }
