@@ -221,8 +221,9 @@ var assemblies = [
   {
     "name": "ConsoleApp1",
     "classes": [
-      { "name": "ConsoleApp1.Classes.PersonDetails", "rp": "ConsoleApp1_PersonDetails.html", "cl": 20, "ucl": 0, "cal": 20, "tl": 45, "cb": 2, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "ConsoleApp1.Program", "rp": "ConsoleApp1_Program.html", "cl": 0, "ucl": 43, "cal": 43, "tl": 75, "cb": 0, "tb": 8, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "ConsoleApp1.Classes.PersonDetails", "rp": "ConsoleApp1_PersonDetails.html", "cl": 0, "ucl": 20, "cal": 20, "tl": 45, "cb": 0, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "ConsoleApp1.PersonDetails", "rp": "ConsoleApp1_PersonDetails.2.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 79, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "ConsoleApp1.Program", "rp": "ConsoleApp1_Program.html", "cl": 15, "ucl": 24, "cal": 39, "tl": 79, "cb": 2, "tb": 10, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
 ];
 
